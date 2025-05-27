@@ -1,0 +1,226 @@
+@media (max-width: 1250px) {
+  html {
+    font-size: 56.25%;
+    /* 9px / 16px = 56.25% */
+  }
+  /* .nav-menu {
+    gap: 0;
+  } */
+  .nav-btn {
+    padding: 0.5rem 2rem;
+  }
+  .navbar {
+    padding: 1rem 10rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 56.25%;
+    /* 9px / 16px = 56.25% */
+  }
+  .nav-menu-btn {
+    padding: 0.4rem 1.1rem;
+  }
+  .navbar {
+    padding: 0.4rem 6rem;
+  }
+  .friendlist-container {
+    gap: 1.3rem;
+  }
+  .friendliest-upper-section {
+    margin-bottom: 2rem;
+  }
+  .friendlist-items {
+    gap: 0.9rem;
+  }
+  .show-on-mobile {
+    display: none;
+  }
+  .energy-container {
+    gap: 1rem;
+  }
+  .energy-header {
+    padding-top: 3rem;
+  }
+  .footer-bar {
+    width: 90%;
+  }
+}
+
+@media (max-width: 852px) {
+  html {
+    font-size: 50%;
+  }
+  .nav-menu-btn {
+    padding: 0.1rem 0.9rem;
+  }
+  .navbar {
+    padding: 0.3rem 4rem;
+  }
+  .friendlist-items {
+    gap: 0.3rem;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .nav-contact-info {
+    display: none;
+  }
+  .show-on-mobile {
+    display: flex;
+  }
+  .energy-container {
+    flex-direction: column;
+  }
+  .energy-article-container {
+    flex-direction: row;
+    height: max-content;
+  }
+  .energy-header {
+    padding-top: 3rem;
+    margin: 0 auto;
+    max-width: 40%;
+    padding-bottom: 1rem;
+  }
+  .energy-article-container {
+    margin: 0 auto;
+    gap: 5rem;
+  }
+  .our-values-container {
+    padding: 2rem 4rem;
+    height: max-content;
+  }
+
+  .footer-upper-section {
+    padding-top: 4rem;
+  }
+
+  .footer-upper-section-left-2 {
+    gap: 1rem;
+  }
+
+  .footer-copyright {
+    padding-bottom: 4rem;
+  }
+  .review-container {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 688px) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+@media (max-width: 606px) {
+  html {
+    font-size: 37.5%;
+    /* 6px / 16px = 37.5% */
+  }
+  .hero-main-section {
+    max-width: 90%;
+    padding-left: 9rem;
+    padding-top: 12rem;
+  }
+  .friendlist-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .friendlist-solar-img {
+    max-width: max-content;
+  }
+  .friendlist-right-section {
+    max-width: max-content;
+  }
+  .cta-inside-container {
+    margin-top: 10rem;
+    margin-left: 7rem;
+    padding-right: 5rem;
+  }
+  .grid-container {
+    flex-direction: column;
+  }
+  .grid-side-container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .grid-img {
+    max-height: 100%;
+  }
+  .sr-header-paragraph {
+    padding: 2rem 6rem;
+    text-align: center;
+  }
+  .sr-header-break {
+    display: none;
+  }
+  .solar-kits-container {
+    padding-top: 2rem;
+  }
+  .repair-header {
+    text-align: center;
+  }
+  .energy-article-container {
+    flex-direction: column;
+  }
+  .energy-header {
+    max-width: 80%;
+  }
+  .values-card-container {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .values-card {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  .review-container {
+    flex-direction: column;
+    align-items: start;
+    padding-left: 4rem;
+    gap: 2rem;
+  }
+  .review-quote {
+    gap: 1.4rem;
+  }
+  .testimonial-content {
+    gap: 5.4rem;
+  }
+  .footer-upper-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-upper-section-left-1 {
+    padding-bottom: 3rem;
+  }
+  .footer-upper-section-left-2 {
+    justify-content: space-evenly;
+  }
+  .footer-subscribe-section {
+    align-items: center;
+  }
+  .footer-subscribe-header {
+    font-size: 1.8rem;
+  }
+  .footer-subscribe-email {
+    width: 45rem;
+  }
+
+  .nav-menu-mobile {
+    height: 60vh;
+  }
+  .footer-img-container {
+    display: flex;
+    margin: 0 auto;
+  }
+  .footer-terms-btn {
+    font-size: 1.3rem;
+  }
+  .footer-copyright {
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <header> -->
+    <header>
+      <!-- NAVIGATION -->
+      <nav class="navbar">
+        <img class="nav-img" src="images/nav-img.png" alt="solarIcon" />
+
+        <div class="nav-menu">
+          <a class="nav-menu-btn nav-btn" href="">Home</a>
+          <a class="nav-menu-btn" href="">Trade</a>
+          <a class="nav-menu-btn" href="">Shop</a>
+          <a class="nav-menu-btn" href="">Contact Us</a>
+        </div>
+
+        <div class="nav-contact-info">
+          <div class="nav-contact-callUs">Call Us</div>
+          <div class="nav-contact-number">+1 2345 3456 45</div>
+        </div>
+
+        <div class="show-on-mobile">
+          <span class="material-symbols-outlined" onclick="showSideBar()"
+            >menu</span
+          >
+        </div>
+
+        <!-- Improved mobile sidebar structure -->
+        <div class="nav-menu-mobile">
+          <!-- Header with logo and close button -->
+          <div class="nav-menu-mobile-header">
+            <img
+              class="nav-menu-mobile-logo"
+              src="images/nav-img.png"
+              alt="solarIcon"
+            />
+            <button
+              class="nav-menu-mobile-close"
+              onclick="hideSideBar()"
+              aria-label="Close sidebar"
+            >
+              <span class="material-symbols-outlined">close</span>
+            </button>
+          </div>
+
+          <!-- Menu items -->
+          <div class="nav-menu-mobile-items">
+            <a href="" class="nav-menu-mobile-item">Home</a>
+            <a href="" class="nav-menu-mobile-item">Trade</a>
+            <a href="" class="nav-menu-mobile-item">Shop</a>
+            <a href="" class="nav-menu-mobile-item">Contact Us</a>
+          </div>
+
+          <!-- Footer with contact info -->
+          <div class="nav-menu-mobile-footer">
+            <div class="nav-menu-mobile-contact">Call Us</div>
+            <div class="nav-menu-mobile-phone">+1 2345 3456 45</div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main container -->
+    <div>
+      <!-- HERO SECTION -->
+      <section>
+        <div class="hero-main-container">
+          <div class="hero-main-section">
+            <h1 class="hero-main-section-header">
+              Solar Panel Installers In Plymouth
+            </h1>
+            <p class="hero-main-section-paragraph">
+              Fueled is an award-winning technology consultancy that transforms
+              businesses by generating ideas, building products, and
+              accelerating growth.
+            </p>
+            <div class="hero-btn-container">
+              <button class="hero-btn hero-btn-1" onclick="printSs()">
+                Call us Today
+              </button>
+              <button class="hero-btn hero-btn-2" onclick="printSs()">
+                Request a call back
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <main>
+        <!-- FEATURES SECTION -->
+        <!-- main container -->
+        <section class="friendlist-container">
+          <!-- left side container -->
+          <div class="features-friendlist-left-section">
+            <!-- upper section  -->
+            <div class="friendliest-upper-section">
+              <h3 class="friendlist-section-header">
+                The Friendliest Installers in the South-West
+              </h3>
+              <p class="friendlist-paragraph">
+                At Solidarity Solar our aims are to help our customers towards a
+                sustainable future and genuinely care about the quality of
+                products we use for our installs. We never sell you equipment
+                you don't need and will always advise to the best of our
+                ability, No hard sell or pushy sales tactics ever. We take pride
+                in our work and do our best to make sure that we meet, or
+                exceed, our customers' expectations.
+              </p>
+            </div>
+            <!-- third part  -->
+            <ul class="friendlist-items">
+              <li>
+                <span class="friendlist-items-numbers">01/</span> Collaborate
+                with 100+ leading
+              </li>
+              <li>
+                <span class="friendlist-items-numbers">02/</span> 100+ leading
+                universities and companies
+              </li>
+              <li>
+                <span class="friendlist-items-numbers">03/</span> leading
+                universities and companies
+              </li>
+              <li>
+                <span class="friendlist-items-numbers">04/</span> universities
+                and companies
+              </li>
+            </ul>
+          </div>
+          <!-- right side container  -->
+          <div class="friendlist-right-section">
+            <img class="friendlist-solar-img" src="images/Rectangle 30.png" />
+            <img class="friendlist-arc-img" src="images/solarPanelView.png" />
+          </div>
+        </section>
+
+        <!-- CTA SECTION -->
+        <section class="cta-container">
+          <!-- cta-paragraph -->
+          <div class="cta-inside-container">
+            <h3 class="cta-header">Power that doesn't Cost the Earth</h3>
+            <p class="cta-paragraph">
+              If you need advice then give us a call on 07745593882 or hit the
+              button below to request a call back!
+            </p>
+            <a class="cta-btn"> Call us Today</a>
+          </div>
+        </section>
+
+        <!-- Solar kits Section -->
+        <section class="solar-kits-container">
+          <!-- S-R header container -->
+          <div class="sr-header-container">
+            <!-- header -->
+            <h3 class="sr-header-text">Solar Kits</h3>
+            <h5 class="sr-header-paragraph">
+              Complete solar system kits, ready for installation. They can be
+              used to supplement on-grid housing,
+              <br class="sr-header-break" />a complete self-sustaining home or
+              some combination of the two.
+            </h5>
+          </div>
+          <!-- Solar kits grid part -->
+          <div>
+            <!-- off-grid -->
+            <div class="grid-container">
+              <div class="grid-side-container">
+                <img class="grid-img" src="images/offGrid.png" />
+                <!-- off grid info  -->
+                <div class="grid-items-container">
+                  <p class="grid-item-header">Off Grid</p>
+                  <p class="grid-item-paragraph">
+                    WOC has contributed to students so that they can work in
+                    their dream company, we will continue to stick to our
+                    commitment to create an advanced generation,
+                  </p>
+                  <!-- view products container  -->
+                  <div class="view-product-container">
+                    <a class="grid-item-link" href="/products">
+                      View Products
+                    </a>
+                    <!-- arrow img  -->
+                    <img class="view-product-img" src="images/arrowImg.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="grid-side-container">
+                <img class="grid-img" src="images/offGrid.png" />
+                <!-- off grid info  -->
+                <div class="grid-items-container">
+                  <p class="grid-item-header">Off Grid</p>
+                  <p class="grid-item-paragraph">
+                    WOC has contributed to students so that they can work in
+                    their dream company, we will continue to stick to our
+                    commitment to create an advanced generation,
+                  </p>
+                  <!-- view products container  -->
+                  <div class="view-product-container">
+                    <a class="grid-item-link" href="/products">
+                      View Products
+                    </a>
+                    <!-- arrow img  -->
+                    <img class="view-product-img" src="images/arrowImg.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="grid-side-container">
+                <img class="grid-img" src="images/offGrid.png" />
+                <!-- off grid info  -->
+                <div class="grid-items-container">
+                  <p class="grid-item-header">Off Grid</p>
+                  <p class="grid-item-paragraph">
+                    WOC has contributed to students so that they can work in
+                    their dream company, we will continue to stick to our
+                    commitment to create an advanced generation,
+                  </p>
+                  <!-- view products container  -->
+                  <div class="view-product-container">
+                    <a class="grid-item-link" href="/products">
+                      View Products
+                    </a>
+                    <!-- arrow img  -->
+                    <img class="view-product-img" src="images/arrowImg.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <!-- off-grid -->
+          </div>
+        </section>
+
+        <!-- Repairs Section -->
+        <section class="repair-container">
+          <div class="repair-main">
+            <h3 class="repair-header">Repairs Over Replacement</h3>
+            <p class="repair-paragraph">
+              We approach every aspect of our business with sustainability in
+              mind. That's why we believe it's always worth trying to fix a
+              system before outright replacing it, wherever possible – it
+              requires fewer materials and is easier on the planet, as well as
+              your wallet! If another company tells you that your system needs
+              to be replaced, just give us a call and we'll see if we can repair
+              it first.
+            </p>
+          </div>
+        </section>
+
+        <section class="energy-container">
+          <!-- Energy header -->
+          <div class="energy-header">
+            <img
+              class="solar-icon-img solar-icon-img-properties"
+              src="images/solarIcon.png"
+            />
+            <h3 class="energy-main">
+              Energy Innovators - the products we love
+            </h3>
+            <p class="energy-main-paragraph">
+              Lorem ipsum dolor sit amet consectetur. Suspendisse suspendisse
+              tempor et ipsum sit egestas nunc. Diam in cum a in.
+            </p>
+          </div>
+          <!-- energy  container -->
+          <div class="energy-article-container">
+            <div class="energy-article-form">
+              <img class="energy-article-img" src="images/emptyImg.png" />
+              <!-- inside container -->
+              <div class="article-main-section-container">
+                <div class="inside-article-container">
+                  <p class="energy-item-header">
+                    SoliTek - The European Manufacturer of Solar Panels
+                  </p>
+                  <p class="energy-item-paragraph">
+                    We work closely importing solar panels from Solitek, they
+                    offer 30 year warranties on their panels and are constantly
+                    coming up with new ideas - including their solar greenhouse.
+                  </p>
+                  <div class="view-product-container">
+                    <a class="grid-item-link" href="/products">
+                      View Products
+                    </a>
+                    <!-- arrow img  -->
+                    <img class="view-product-img" src="images/arrowImg.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="energy-article-form">
+              <img class="energy-article-img" src="images/emptyImg.png" />
+              <!-- inside container -->
+              <div class="article-main-section-container">
+                <div class="inside-article-container">
+                  <p class="energy-item-header">BYD - Electrifying Transport</p>
+                  <p class="energy-item-paragraph">
+                    We use battery cells made by BYD, a market leader in lithium
+                    batteries. BYD batteries are in cars, trucks, and buses -
+                    they build robust batteries.
+                  </p>
+                  <div class="view-product-container">
+                    <a class="grid-item-link" href="/products">
+                      View Products
+                    </a>
+                    <!-- arrow img  -->
+                    <img class="view-product-img" src="images/arrowImg.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- second part here -->
+          <div class="energy-article-container">
+            <div class="energy-article-form">
+              <img class="energy-article-img" src="images/emptyImg.png" />
+              <!-- inside container -->
+              <div class="article-main-section-container">
+                <div class="inside-article-container">
+                  <p class="energy-item-header">
+                    Sunsynk - No Power No Problem
+                  </p>
+                  <p class="energy-item-paragraph">
+                    Sunsynk build the most versatile hybrid inverter on the
+                    market, designed to take up to 7kW of solar on a standard
+                    domestic supply - for simultaneous battery charging and
+                    household usage.
+                  </p>
+                  <div class="view-product-container">
+                    <a class="grid-item-link" href="/products">
+                      View Products
+                    </a>
+                    <!-- arrow img  -->
+                    <img class="view-product-img" src="images/arrowImg.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="energy-article-form">
+              <img class="energy-article-img" src="images/emptyImg.png" />
+              <!-- inside container -->
+              <div class="article-main-section-container">
+                <div class="inside-article-container">
+                  <p class="energy-item-header">REC - Solar's Most Trusted</p>
+                  <p class="energy-item-paragraph">
+                    REC - Renewable Energy Corporation, are one of the longest
+                    trading names in solar. They know how to be truly
+                    sustainable in this industry - their panels are 100% lead
+                    free and have the most trusted warranty in solar.
+                  </p>
+                  <div class="view-product-container">
+                    <a class="grid-item-link" href="/products">
+                      View Products
+                    </a>
+                    <!-- arrow img  -->
+                    <img class="view-product-img" src="images/arrowImg.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- our values section -->
+        <section class="our-values-container">
+          <!-- values-cards-contianer -->
+          <!-- our values header -->
+          <div class="values-main-header-container">
+            <h3 class="values-main-header">Our Values</h3>
+            <p class="values-main-paragraph">
+              More than 3000 users have been helped by World Online Course
+            </p>
+          </div>
+          <div class="values-card-container">
+            <!-- values-cards -->
+            <div class="values-card">
+              <!-- img here -->
+              <img class="values-card-img" src="images/values-img-1.png" />
+              <p class="values-card-header">Customer Care</p>
+              <p class="values-paragraph">
+                We're here to help you with solar panel installation in Devon
+                and Cornwall. If we were to sum ourselves up in a few words,
+                those would be "reliable, honest and friendly." We find our
+                customers agree! We're with you from the start of the project to
+                the finish.
+              </p>
+            </div>
+            <div class="values-card">
+              <!-- img here -->
+              <img class="values-card-img" src="images/values-img-1.png" />
+              <p class="values-card-header">Customer Care</p>
+              <p class="values-paragraph">
+                We're here to help you with solar panel installation in Devon
+                and Cornwall. If we were to sum ourselves up in a few words,
+                those would be "reliable, honest and friendly." We find our
+                customers agree! We're with you from the start of the project to
+                the finish.
+              </p>
+            </div>
+            <div class="values-card">
+              <!-- img here -->
+              <img class="values-card-img" src="images/values-img-1.png" />
+              <p class="values-card-header">Customer Care</p>
+              <p class="values-paragraph">
+                We're here to help you with solar panel installation in Devon
+                and Cornwall. If we were to sum ourselves up in a few words,
+                those would be "reliable, honest and friendly." We find our
+                customers agree! We're with you from the start of the project to
+                the finish.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- what they say about WOC  -->
+        <div class="review-container">
+          <!-- review left part -->
+          <div class="review-quote">
+            <img class="review-quote-icon" src="images/reviewImg.png" />
+            <h2 class="review-quote-header">what they say about WOC</h2>
+            <p class="review-quote-paragraph">
+              More than 3000 users have been helped by World Online Course.
+            </p>
+          </div>
+          <div class="testimonial-content">
+            <div class="testimonial-content-1">
+              <a class="testimonial-content-1-header">What they say </a>
+              <h5 class="testimonial-content-1-paragraph">
+                “Studying at WOC is fun, the curriculum is complete, the
+                instructors are competent, and the assignments given are also
+                relevant to the current scope of work.”
+              </h5>
+            </div>
+            <div class="testimonial-content-2">
+              <!-- person icon -->
+              <img
+                class="testimonial-content-2-img"
+                src="images/personImg.png"
+              />
+              <!-- person name and role -->
+              <div class="testimonial-content-2-form">
+                <p class="testimonial-content-2-name">Resky Fernanda</p>
+                <p class="testimonial-content-2-job">
+                  Product Designer at Tokopedia
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer-container">
+          <div class="footer-upper-section">
+            <div class="footer-upper-section-left-1">
+              <div class="footer-img-container">
+                <img class="footer-img" src="images/footer-empty-img.jpg" />
+              </div>
+              <div class="footer-upper-section-left-2">
+                <p class="footer-upper-section-paragraph">About</p>
+                <p class="footer-upper-section-paragraph">Careers</p>
+                <p class="footer-upper-section-paragraph">Press</p>
+                <p class="footer-upper-section-paragraph">Customer Care</p>
+                <p class="footer-upper-section-paragraph">Services</p>
+              </div>
+            </div>
+            <div class="footer-subscribe-section">
+              <p class="footer-upper-section-paragraph footer-subscribe-header">
+                Get the freshest news from us
+              </p>
+              <div class="footer-subscribe-email">
+                <input
+                  class="footer-upper-section-paragraph footer-subscribe-input"
+                  placeholder="Your email address... "
+                />
+                <div class="footer-subscribe-btn">
+                  <span class="footer-upper-section-paragraph">Subscribe</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- the footer bar -->
+          </div>
+          <div class="footer-bar"></div>
+          <div class="footer-copyright">
+            <!-- left side -->
+            <div class="footer-terms-container">
+              <a class="footer-terms-btn" href=""> Terms & Conditions</a>|
+              <a class="footer-terms-btn" href="">Privacy Policy</a>|
+              <a class="footer-terms-btn" href="">Accessibility</a>|
+              <a class="footer-terms-btn" href=""> Legal </a>|
+            </div>
+            <!-- right side -->
+            <div class="footer-copyright-text">
+              Copyright 2023 - Solidarity Solar Ltd
+            </div>
+          </div>
+          <!-- footer copy right secion -->
+        </footer>
+      </main>
+    </div>
+    <script>
+      const sidebar = document.querySelector(".nav-menu-mobile");
+
+      function handleSidebarDisplay() {
+        if (window.innerWidth > 852) {
+          sidebar.classList.remove("active");
+        }
+      }
+      window.addEventListener("resize", handleSidebarDisplay);
+
+      function showSideBar() {
+        // Add active class but don't touch display property
+        sidebar.classList.add("active");
+        document.body.classList.add("sidebar-open");
+      }
+
+      function hideSideBar() {
+        // Remove active class but don't touch display property
+        sidebar.classList.remove("active");
+        document.body.classList.remove("sidebar-open");
+      }
+
+      // Initial check
+      handleSidebarVisibility();
+      function printSs() {
+        console.log("test");
+      }
+    </script>
+  </body>
+</html>
